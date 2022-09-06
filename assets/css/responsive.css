@@ -1,0 +1,141 @@
+
+/* 1199 */
+
+@media screen and (max-width: 1199.5px) {
+	.header__menu ul li a{
+		font-size: 14px;
+	}
+	.site-banner .slick-dots{
+		max-width: 930px;
+	}
+	.site-about .images .img1{
+		left: 0;
+	}
+}
+
+/* 991 */
+
+@media screen and (max-width: 991.5px) {
+	.row-vt{
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		margin: auto;
+	}
+	.col-vt{
+		order: 2;
+	}
+	.header__menu ul li{
+		display: none;
+		line-height: 1;
+		padding: 10px 0px;
+	}
+	.header__menu ul .search,
+	.header__menu ul .icon-menu-mobile{
+		display: block;
+	}
+	.header__menu ul{
+		justify-content: space-between;
+	}
+	.header__top .login a{
+		font-size: 14px;
+		min-width: 120px;
+	}
+	.site-banner .items h2{
+		font-size: 50px;
+	}
+	.site-banner .slick-dots{
+		max-width: 690px;
+	}
+	.site-banner .items{
+		min-height: 600px;
+	}
+	.site-category .nav a{
+		min-width: 140px;
+	}
+	.site-total .slick-feedback .items p{
+		padding: 0px 20px;
+	}
+	.news-content .title-main{
+		position: relative;
+		z-index: 9;
+	}
+	.footer .items_menu ul li a{
+		line-height: 1.5;
+	}
+	.site-total{
+		padding-top: 100px;
+	}
+}
+
+/* 767 */
+
+@media screen and (max-width: 767.5px) {
+	.header__top .logo{
+		justify-content: center;
+	}
+	.col-order-2{
+		order: 2;
+	}
+	.header__top .login{
+		padding-top: 10px;
+	}
+	.site-banner .items h2{
+		font-size: 30px;
+	}
+	.site-banner .items{
+		min-height: 300px;
+	}
+	.site-banner .items p{
+		margin-bottom: 40px;
+	}
+	.site-banner .items .content{
+		padding: 50px 0px;
+	}
+	.site-banner .slick-dots{
+		max-width: 345px;
+	}
+	.site-banner .slick-dots{
+		bottom: 29%;
+	}
+	.site-about{
+		padding: 50px 0px;
+	}
+	.site-category .nav li{
+		margin-bottom: 10px;
+	}
+	.site-total{
+		padding-top: 50px;
+	}
+	.news-content .slick-news{
+		padding-right: 0;
+	}
+	.news-content .news-single:before{
+		display: none;
+	}
+	.site-pn{
+		padding: 50px 0px;
+	}
+	.site-pn .slick-prev{
+		left: 0;
+	}
+	.site-pn .slick-next{
+		right: 0;
+	}
+	.footer{
+		padding: 50px 0px;
+	}
+	.site-total .slick-feedback{
+		padding: 0px;
+		padding-bottom: 50px;
+	}
+	.site-total .slick-feedback .slick-center .content{
+		transform: scale(1) translate(0,0);
+	}
+	.site-total .slick-feedback .slick-list{
+		padding-top: 0 !important;
+	}
+	.header__top .login{
+		display: none;
+	}
+}
