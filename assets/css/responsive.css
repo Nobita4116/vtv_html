@@ -135,7 +135,24 @@
 	.site-total .slick-feedback .slick-list{
 		padding-top: 0 !important;
 	}
-	.header__top .login{
-		display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.menu-mobile {
+		padding: 0px;
+	}
+	.dropdown-menu.show {
+		display: block;
+		position: inherit;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		border: none;
+	}
+	.dropdown-menu.show .dropdown-item {
+		padding-left: 35px;
+	}
+	.menu-mobile .content>ul>li {
+		clear: both;
 	}
 }
