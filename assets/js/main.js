@@ -122,3 +122,7 @@ $('.js-menu').click(function(event) {
 $('.js-close').click(function(event) {
   $('.menu-mobile').fadeOut();
 });
+
+$('.js-dropdown').click(function(){
+  $(this).parent('ul li').find('>.sub-menu').toggle();
+});

@@ -1031,3 +1031,50 @@ button, img, input, select {
 .header__menu ul li.dropdown .dropdown-item:hover {
   background-color: rgba(128, 0, 0, 0.86);;
 }
+.header__menu ul li{
+  position: relative;
+}
+.header__menu ul li:hover .sub-menu{
+  visibility: visible;
+  opacity: 1;
+  transition: all .3s;
+}
+.header__menu ul li .sub-menu{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  max-width: 200px;
+  background-color: var(--color-red);
+  z-index: 9;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+.header__menu ul li .sub-menu li a{
+  padding: 0px 15px;
+}
+
+.header__menu ul li .sub-menu li .sub-menu{
+  left: 100%;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+.header__menu ul li .sub-menu li:hover .sub-menu{
+  visibility: visible;
+  opacity: 1;
+  transition: all .3s;
+}
+.menu-mobile .content ul li .sub-menu{
+  margin-left: 20px;
+  display: none;
+}
+.menu-mobile .content ul li .sub-menu li a{
+  color: #0054b5;
+}
+.menu-mobile .content ul li .sub-menu li .sub-menu li a{
+  color: #0076ff;
+}
