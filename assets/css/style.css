@@ -385,6 +385,23 @@ button, img, input, select {
 .site-banner {
   position: relative;
 }
+.site-banner .mxh-mb{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%,0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+}
+.site-banner .mxh-mb a{
+  margin: 0px 5px;
+}
+.site-banner .mxh-mb a img{
+  width: 24px;
+  height: 24px;
+}
 .site-banner .slick-dots {
   position: absolute;
   bottom: 35%;
@@ -435,6 +452,20 @@ button, img, input, select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          position: relative;
+}
+.site-banner .items:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(2,2,2,0.5);
+}
+.site-banner .items .container{
+  position: relative;
+  z-index: 5;
 }
 .site-banner .items .content {
   max-width: 650px;
@@ -1077,4 +1108,27 @@ button, img, input, select {
 }
 .menu-mobile .content ul li .sub-menu li .sub-menu li a{
   color: #0076ff;
+}
+.mxh{
+  position: fixed;
+  z-index: 9;
+  top: 50%;
+  right: 20px;
+  transform: translate(0,-50%);
+}
+.mxh a{
+  display: block;
+  margin-bottom: 10px;
+}
+.mxh a img{
+  height: 24px;
+  width: 24px;
+}
+
+.backtotop{
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 9;
+  cursor: pointer;
 }

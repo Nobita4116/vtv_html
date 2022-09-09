@@ -137,6 +137,9 @@
 	}
 }
 
+.banner-mobile{
+	display: none;
+}
 @media screen and (max-width: 767px) {
 	.menu-mobile {
 		padding: 0px;
@@ -154,5 +157,37 @@
 	}
 	.menu-mobile .content>ul>li {
 		clear: both;
+	}
+	.header__top .login{
+		display: none;
+	}
+	.banner-pc{
+		display: none;
+	}
+	.banner-mobile{
+		display: block;
+	}
+	.site-banner .items{
+		height: calc(100vh - 155px);
+		align-items: flex-start;
+		text-align: center;
+	}
+	.site-banner .items p{
+		
+		margin-bottom: 60px;
+	}
+	.site-banner .items p span{
+		font-size: 14px;
+		font-style: italic
+	}
+	.site-banner .btn-custom{
+		margin: 0 auto;
+	}
+	.site-banner .slick-dots{
+		bottom: 62% !important;
+		justify-content: center;
+	}
+	.mxh{
+		display: none;
 	}
 }

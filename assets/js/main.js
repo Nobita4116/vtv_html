@@ -126,3 +126,10 @@ $('.js-close').click(function(event) {
 $('.js-dropdown').click(function(){
   $(this).parent('ul li').find('>.sub-menu').toggle();
 });
+
+$(".backtotop").click(function () {
+   $("html, body").animate({
+      scrollTop: 0
+   }, "slow");
+   return !1
+});
