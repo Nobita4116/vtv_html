@@ -1132,3 +1132,21 @@ button, img, input, select {
   z-index: 9;
   cursor: pointer;
 }
+
+.site-banner .items:before {
+  background: none;
+}
+.site-banner .items .content {
+  max-width: 870px;
+}
+.site-banner .items p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #FAFCFE;
+  margin-bottom: 80px;
+  background: rgb(0 0 0 / 30%);
+  padding: 5px 15px;
+}
+.site-banner .items h2 {
+  font-size: 50px;
+}
